@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
-// const { ACCESS_TOKEN_SECRET } = process.env;=
-const ACCESS_TOKEN_SECRET="Rj2S?RVe9[]8-dCS6A**&b5Tsg$gwbg~Bd{*QTK";
+// const { ACCESS_TOKEN_SECRET } = process.env;
+ACCESS_TOKEN_SECRET="Rj2S?RVe9[]8-dCS6A**&b5Tsg$gwbg~Bd{*QTK";
 
 
 exports.verifyAccessToken = async (req, res, next) => {
